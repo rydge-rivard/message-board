@@ -19,7 +19,7 @@ router.get("/", function (req, res, next) {
 });
 
 router.get("/new", function (req, res, next) {
-  res.render("userForm", { title: "New User", messages: messages });
+  res.render("userForm", { title: "New Message", messages: messages });
 });
 
 router.post("/new", function (req, res, next) {
